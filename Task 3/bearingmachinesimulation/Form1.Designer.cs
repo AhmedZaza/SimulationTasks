@@ -55,11 +55,10 @@
             this.Repair_person_cost = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.down_time_cost = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.Load = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -224,7 +223,7 @@
             // 
             // Simulate
             // 
-            this.Simulate.Location = new System.Drawing.Point(723, 329);
+            this.Simulate.Location = new System.Drawing.Point(629, 445);
             this.Simulate.Name = "Simulate";
             this.Simulate.Size = new System.Drawing.Size(168, 43);
             this.Simulate.TabIndex = 12;
@@ -264,22 +263,6 @@
             this.down_time_cost.Size = new System.Drawing.Size(100, 20);
             this.down_time_cost.TabIndex = 15;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(553, 461);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 13);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Test cases path";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(657, 458);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(87, 20);
-            this.textBox1.TabIndex = 17;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -300,24 +283,35 @@
             // 
             // Load
             // 
-            this.Load.Location = new System.Drawing.Point(571, 329);
+            this.Load.Location = new System.Drawing.Point(639, 363);
             this.Load.Name = "Load";
             this.Load.Size = new System.Drawing.Size(146, 43);
             this.Load.TabIndex = 21;
-            this.Load.Text = "load";
+            this.Load.Text = "Load Test";
             this.Load.UseVisualStyleBackColor = true;
             this.Load.Click += new System.EventHandler(this.Load_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "TestCase1",
+            "TestCase2",
+            "TestCase3"});
+            this.comboBox1.Location = new System.Drawing.Point(650, 336);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 22;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 553);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.Load);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.down_time_cost);
             this.Controls.Add(this.label3);
@@ -369,8 +363,6 @@
         private System.Windows.Forms.TextBox Repair_person_cost;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox down_time_cost;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Bearing_life;
         private System.Windows.Forms.DataGridViewTextBoxColumn Probability;
         private System.Windows.Forms.DataGridViewTextBoxColumn cumulative_Probability;
@@ -379,6 +371,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button Load;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

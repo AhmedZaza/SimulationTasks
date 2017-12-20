@@ -73,3 +73,17 @@ C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineSimulation\obj\Deb
 C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.pdb
 C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csprojResolveAssemblyReference.cache
 C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Form3.resources
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.exe.config
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.exe
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.pdb
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\bin\Debug\BearingMachineModels.dll
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\bin\Debug\BearingMachineModels.pdb
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csprojResolveAssemblyReference.cache
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Form1.resources
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Form2.resources
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Form3.resources
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Properties.Resources.resources
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csproj.GenerateResource.Cache
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csproj.CoreCompileInputs.cache
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.exe
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.pdb

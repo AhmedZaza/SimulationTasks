@@ -27,3 +27,9 @@ C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineModels\bin\Debug\B
 C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineModels\obj\Debug\BearingMachineModels.dll
 C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineModels\obj\Debug\BearingMachineModels.pdb
 C:\Users\Islam\Desktop\Labs\[Students]_Template\BearingMachineModels\obj\Debug\BearingMachineModels.csprojResolveAssemblyReference.cache
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineModels\bin\Debug\BearingMachineModels.dll
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineModels\bin\Debug\BearingMachineModels.pdb
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineModels\obj\Debug\BearingMachineModels.csprojResolveAssemblyReference.cache
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineModels\obj\Debug\BearingMachineModels.csproj.CoreCompileInputs.cache
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineModels\obj\Debug\BearingMachineModels.dll
+C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\BearingMachineModels\obj\Debug\BearingMachineModels.pdb

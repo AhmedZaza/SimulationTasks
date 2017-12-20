@@ -44,7 +44,6 @@ namespace BearingMachineSimulation
                 dataGridView1.Rows[i].Cells[3].Value = temp.MinRange;
                 dataGridView1.Rows[i].Cells[4].Value = temp.MaxRange;
                 mysystem.BearingLifeDistribution.Add(temp);
-                //    MessageBox.Show(temp.CummProbability.ToString());
 
 
             }
@@ -79,9 +78,16 @@ namespace BearingMachineSimulation
                 mysystem.DelayTimeDistribution.Add(temp);
             }
         }
-        public static void read_from_file(TextBox down_time_cost, TextBox Repair_person_cost, TextBox Bearing_cost, TextBox Num_of_hours, TextBox Num_of_bearings, TextBox Repair_Time_for_one_Bearing, TextBox Repair_Time_for_all_bearings, DataGridView dataGridView2, DataGridView dataGridView1)
+        public static void read_from_file(TextBox down_time_cost, TextBox Repair_person_cost, TextBox Bearing_cost, TextBox Num_of_hours, TextBox Num_of_bearings, TextBox Repair_Time_for_one_Bearing, TextBox Repair_Time_for_all_bearings, DataGridView dataGridView2, DataGridView dataGridView1,string test_case_number)
         {
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Islam\Desktop\Labs\[Students]_Template\bearingmachinesimulation\TestCases\TestCase3.txt");
+            string[] lines;
+            if (test_case_number == "TestCase1")
+                lines = System.IO.File.ReadAllLines(@"C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\bearingmachinesimulation\TestCases\TestCase1.txt");
+            else if (test_case_number == "TestCase2")
+                lines = System.IO.File.ReadAllLines(@"C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\bearingmachinesimulation\TestCases\TestCase2.txt");
+            else
+                lines = System.IO.File.ReadAllLines(@"C:\Users\Zaza\Desktop\simulation\SimulationTasks-master\Task 3\bearingmachinesimulation\TestCases\TestCase3.txt");
+
             for (int i = 0; i < lines.Count(); i++)
             {
                 if (lines[i] == "DowntimeCost")
